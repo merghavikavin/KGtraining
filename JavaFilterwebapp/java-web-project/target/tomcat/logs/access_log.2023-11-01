@@ -1,0 +1,1 @@
+0:0:0:0:0:0:0:1 - - [01/Nov/2023:12:42:58 +0530] "GET /servlet1?name=garcia&password=fgvzgv HTTP/1.1" 200 27 http-bio-1999-exec-1 25
