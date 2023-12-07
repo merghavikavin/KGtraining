@@ -1,0 +1,5 @@
+com\kgisl\hibeanno\App.class
+com\kgisl\hibeanno\Person.class
+com\kgisl\hibeanno\Passport.class
+com\kgisl\hibeanno\TestOneToOne.class
+com\kgisl\hibeanno\Book.class
