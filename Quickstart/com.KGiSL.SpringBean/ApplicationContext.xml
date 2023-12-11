@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="https://www.springframework.org/schema/beans"  
+    xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="https://www.springframework.org/schema/p"  
+    xsi:schemaLocation="https://www.springframework.org/schema/beans  
+                https://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+<bean id="e" class="com.KGiSL.SpringBean.Employee">  
+<constructor-arg value="10" type="int"></constructor-arg>  
+</bean>  
+  
+</beans>  
