@@ -1,0 +1,20 @@
+<div>
+    <h2>Contact Details</h2>
+    <span style="float:right">
+        <button id="add" class="btn glyphicon glyphicon-plus" ng-click="redirectToCreateContact()">Add Contact</button>
+    </span>
+    <table style="width:100%">
+        <!-- Display contact list here -->
+        <tr ng-repeat="contact in contacts">
+            <td>{{ contact.id }}</td>
+            <td>{{ contact.name }}</td>
+            <td>{{ contact.email }}</td>
+            <td>{{ contact.phonenumber }}</td>
+            <!-- Add other details as needed -->
+            <td>
+                <button ng-click="editContact(contact.id)">Edit</button>
+                <button ng-click="deleteContact(contact.id)">Delete</button>
+            </td>
+        </tr>
+    </table>
+</div>
