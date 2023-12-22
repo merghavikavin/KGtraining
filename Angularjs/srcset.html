@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<body ng-app="">
+    <div
+        ng-init="myVar = 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb0%2FHamburger_%252812164386105%2529.jpg%2F1200px-Hamburger_%252812164386105%2529.jpg&tbnid=t_5R2A4Ip15OcM&vet=12ahUKEwiCtMH-05qDAxXGS2wGHQG6ABoQMygFegQIARB7..i&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFast_food&docid=X_RCFgQjayVz5M&w=1200&h=800&q=food&ved=2ahUKEwiCtMH-05qDAxXGS2wGHQG6ABoQMygFegQIARB7">
+        <h1>Tajmahal</h1>
+        <img ng-srcset="{{myVar}}">
+    </div>
+    <p>This example could use the original srcset attribute, but with AngularJS code inside the value, it is better to
+        use the ng-srcset attribute instead.</p>
+</body>
+
+</html>

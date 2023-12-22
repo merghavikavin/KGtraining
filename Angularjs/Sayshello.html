@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.angularjs.org/1.6.9/angular.js"></script>
+</head>
+
+<body>
+    <!-- View -->
+    <div ng-app="myApp" ng-controller="MyController">
+        <input type=text ng-model="message">&nbsp;&nbsp;&nbsp;{{message}} <!-- Displays 'Hello, Angular!' -->
+        <br><br>
+        <button ng-click="sayHello()" style="float:left;">Say Hello</button>
+    </div>
+    <script>
+        // Controller
+        angular.module('myApp', []).controller('MyController', function ($scope) {
+
+            $scope.sayHello = function () {
+
+                alert($scope.message);
+            };
+        });
+    </script>
+
+
+</body>
+
+</html>
